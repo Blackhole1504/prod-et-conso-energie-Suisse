@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Visualisation de la production et consommation d'Énergie électrique en Suisse</title>
+</head>
+<body>
+    <h1>L'électricité en Suisse sur 25 ans</h1>
+
+    <p>Les graphiques ci-dessous réalisés avec la librairie D3.js permettent de visualiser la production et la consommation d'énergie en Suisse de janvier 2000 à janvier 2024. Les données sont issues de l'Office fédéral de l'énergie (OFEN) et sont exprimées en gigawattheures (GWh).</p>
+
+
+
+    <h2>Tendance globale de la production et la consommation d'électricité </h2>
+
+    <p>La visualisation ci-dessous est un graphique superposé qui montre les courbes de la production nette d'électricité ainsi 
+        que de la consommation finale. Les données sont représentées mensuellement sur une période temporelle allant de 2000 à 2024. 
+        D'après les données brutes, on identifie les pics de consommation correspondant aux mois hivernaux, et a contrario les creux correspondent à la période estivale. <br>
+        En cliquant sur les carrés colorés en légende, il est possible d'extraire chacune des courbes pour isoler les données qui nous intéressent.<br>
+         Enfin, le déficit entre la quantité d'électricité produite et la quantité consommée sur une même période est mis en valeur en magenta. 
+        Il devient plus facile d'identifier les années les plus déficitaires en énergie.</p>
+
+     <div id="prod-conso">
+     <script src="prod-conso.js"></script>
+    </div>
+
+
+    <h2>Production d'électricité selon la technique par année</h2>
+
+    <p>Les deux graphiques suivant sont à appréhender conjointement dans la mesure où le piechart vient apporter une visualisation détaillée des proportions d'électricité produite selon différents moyens (nucléaire, hydraulique, thermique). En entrant dans les détails, il permet d'apprécier le pourcentage de chaque ressource.
+        De manière plus générale, le graphique empilé ci-après offre une vue d'ensemble sur l'évolution des techniques utilisées.</p>
+        <iframe src="piechart.html" width="100%" height="600px"></iframe>
+
+
+    <p>En cliquant sur le bouton défilant ci-dessus à gauche, il est possible de choisir précisément la date ainsi que le mois (par exemple : le mois de janvier 2000 correspond à "2000-1"). <br>
+        On peut ainsi voir qu'en juillet 2017,l'hydraulique (environ 60%) était deux fois plus utilisé que le nucléaire (31.5%) pour produire de l'électricité.</p>
+
+    
+    <div id="stackedchart"></div>
+    <script src="stackedchart.js"></script> 
+    
+
+    <p>Enfin, à l'aide du graphique en barres empilées représentant les mêmes métriques, il est possible d'obtenir davantage d'informations sur les dynamiques de production. <br>
+        En effet, en passant la souris sur les barres, le mois ainsi que l'année apparaissent. En cliquant sur une proportion, celle-ci se démarque et s'affichent la date et la valeur exacte. <br>
+        Dès lors on remarque que l'hydraulique est une technique qui n'est pas aussi efficace en saison hivernale qu'en saison estivale. 
+        En outre, ce graphique permet de voir que la production thermique a doublé voire triplé en termes de proportion du total sur la période. </p>
+</body>
+</html>

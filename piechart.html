@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualisation de la Production d'Électricité</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href = "style.css">
+    <style>
+        .chart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .dropdown {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="piechart">
+        <select class="dropdown" id="dateDropdown"></select>
+        <svg width="100%" height="1700"></svg>
+    </div>
+    <script src="piechart.js"></script>
+</body>
+</html>
