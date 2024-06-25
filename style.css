@@ -33,3 +33,21 @@ iframe {
   border: none;
 }
 
+.line {
+  fill: none;
+  stroke-width: 2;
+}
+
+.line.importation {
+  stroke: green;
+}
+.line.exportation {
+  stroke: red;
+}
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: black;
+}
+
