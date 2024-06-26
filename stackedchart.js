@@ -47,6 +47,23 @@ d3.csv("stackedchart.csv").then(data => {
     svg.append("g")
         .call(d3.axisLeft(y));
 
+    // Ajouter un rectangle en fond pour couvrir la zone sans barres
+    const fond = svg.append("rect")
+        .attr("x", 0) 
+        .attr("y", 0) 
+        .attr("width", width) 
+        .attr("height", height) 
+        .attr("fill", "rgba(0, 0, 0, 0)") 
+        .on("click", function(event) {
+            if (event.target.tagName !== 'bars') { // Si on clique en dehors des barres, réinitialise l'opacité et le texte
+                svg.selectAll("rect")
+                    .style("opacity", 1);
+                d3.select("#blabla1").remove();
+                d3.select("#blabla2").remove();
+            }
+        });
+
+
     // Création des barres
     const bars = svg.append("g")
         .selectAll("g")
