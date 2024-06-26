@@ -125,7 +125,7 @@
         .text(d => d);
 
         // Bouton pour recommencer l'animation
-        d3.select("#import-export .restart").on("click", animation);
+        d3.select("#restart").on("click", animation);
     });
 
     // Fonction pour dessiner les ligne
