@@ -61,6 +61,11 @@ D'autre part, nous avons généré un piechart présentant les pourcentages d'ut
 
 <img width="1356" alt="stackedchart" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/stackedchart.png">
 
+Enfin, nous avons comparé l'importation et l'exportation d'électricité par la Suisse. Ce graphique interactif permet de visualiser la grande disparité des valeurs d'un mois à l'autre. Ce dernier graphe montre bien l'importance d'avoir un réseau énergéique interconnecté et de pouvoir échanger de l'énergie au niveau européen. 
+
+<img width="905" alt="import-export" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/import-export.png">
+
+
 
 **AUTEURS**
 
