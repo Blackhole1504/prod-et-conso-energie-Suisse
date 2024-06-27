@@ -30,7 +30,7 @@ Le nombre de champs pour lesquels des données ont été recueillies est limité
 
 Ci-dessous la structure de la base de données, provenant d'une capture d'écran du fichier original :
 
-<img width="783" alt="Capture d’écran données" src="https://github.com/RomaneChi/La-production-et-la-consommation-d-nergie-en-Suisse/assets/126593630/e32aba53-7485-4b2a-ba9a-164a040ad18a">
+<img width="783" alt="Capture d’écran données" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%20donn%C3%A9es.png">
 
 
 
@@ -51,19 +51,19 @@ Ce travail a pour but d'obtenir une vue globale sur l'évolution de la consommat
 D'une part, nous avons réalisé un graphique superposé, qui, par sa sobriété informationnelle, donne une visualisation directe sur la consommation et la production nette sur 24 ans, tout en gardant la précision des données mensuelles. Le but est d'aider à déterminer comment la production s'est adaptée, notamment en fonction de la numérisation de la société qui laisse supposer une hausse de la consommation depuis les années 2000.
 
 
-<img width="1298" alt="prod-cons" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/prod-conso.png">
+<img width="1298" alt="prod-cons" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/images/prod-conso.png">
 
 
 D'autre part, nous avons généré un piechart présentant les pourcentages d'utilisation des différentes techniques de production (hydraulique, nucléaire, thermique) par an pour une vue détaillée. Celle-ci vient compléter un diagramme en barres empilées ayant pour but de saisir l'évolution dans l'usage des différentes techniques de production.
 
 
-<img width="810" alt="piechart" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/piechart.png">
+<img width="810" alt="piechart" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/images/piechart.png">
 
-<img width="1356" alt="stackedchart" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/stackedchart.png">
+<img width="1356" alt="stackedchart" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/images/stackedchart.png">
 
 Enfin, nous avons comparé l'importation et l'exportation d'électricité par la Suisse. Ce graphique interactif permet de visualiser la grande disparité des valeurs d'un mois à l'autre. Ce dernier graphe montre bien l'importance d'avoir un réseau énergéique interconnecté et de pouvoir échanger de l'énergie au niveau européen. 
 
-<img width="905" alt="import-export" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/import-export.png">
+<img width="905" alt="import-export" src="https://github.com/Blackhole1504/prod-et-conso-energie-Suisse/blob/main/images/import-export.png">
 
 
 
