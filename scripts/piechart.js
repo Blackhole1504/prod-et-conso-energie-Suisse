@@ -1,4 +1,4 @@
-d3.csv("piechart.csv").then(data => {
+d3.csv("../data/piechart.csv").then(data => {
     // Convertir les valeurs en nombres
     data.forEach(d => {
         d.Production_centrales_hydrauliques = +d.Production_centrales_hydrauliques;
